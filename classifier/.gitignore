@@ -1,0 +1,8 @@
+/target/
+.classpath
+.DS_Store
+../.DS_Store
+.settings/org.eclipse.jdt.core.prefs
+/bin/
+../data/
+../hadoop/

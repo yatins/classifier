@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahout Classifier</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<h1>Mahout  Classifier</h1>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="http://blog.teracy.com/images/2013/09/20/semantic-web.jpg" alt="Semantic Web" height="60" width="60"> </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/topwords">Top Words by
+							Category</a></li>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<form name="user" action="classify" method="post">
+
+		<table width="100%" height="70%" cellspacing="2" + callpadding="2" frame="box">
+			<tr>
+				<td halign="left" width="100%" halign="center" height="50%" colspan="3">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Paste text into
+								the box below then click 'Classify' to see the automatic
+								classification</h3>
+						</div>
+						<div class="panel-body">
+							<textarea rows="30" cols="40" name="abstractVal"
+								class="form-control" required autofocus></textarea>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="10%"  align="left">Number of results</td>
+				<td width="5%"  align="left">
+					<select name="resultCount" class="form-control" >
+	      				<option>5</option>
+	     				<option selected>10</option>
+	      				<option>20</option>
+	      				<option>50</option>
+	    			</select>
+				</td>
+				<td width="85%">
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Classify</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+
+</body>
+</html>

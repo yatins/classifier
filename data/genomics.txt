@@ -1,0 +1,9 @@
+Background
+
+The liver plays a central role in the maintenance of homeostasis and health in general. However, there is substantial inter-individual variation in hepatic gene expression, and although numerous genetic factors have been identified, less is known about the epigenetic factors.
+Results
+
+By analyzing the methylomes and transcriptomes of 14 fetal and 181 adult livers, we identified 657 differentially methylated genes with adult-specific expression, these genes were enriched for transcription factor binding sites of HNF1A and HNF4A. We also identified 1,000 genes specific to fetal liver, which were enriched for GATA1, STAT5A, STAT5B and YY1 binding sites. We saw strong liver-specific effects of single nucleotide polymorphisms on both methylation levels (28,447 unique CpG sites (meQTL)) and gene expression levels (526 unique genes (eQTL)), at a false discovery rate (FDR) < 0.05. Of the 526 unique eQTL associated genes, 293 correlated significantly not only with genetic variation but also with methylation levels. The tissue-specificities of these associations were analyzed in muscle, subcutaneous adipose tissue and visceral adipose tissue. We observed that meQTL were more stable between tissues than eQTL and a very strong tissue-specificity for the identified associations between CpG methylation and gene expression.
+Conclusions
+
+Our analyses generated a comprehensive resource of factors involved in the regulation of hepatic gene expression, and allowed us to estimate the proportion of variation in gene expression that could be attributed to genetic and epigenetic variation, both crucial to understanding differences in drug response and the etiology of liver diseases. 
